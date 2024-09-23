@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Run Command') {
+        stage('Checkout') {
             steps {
                 script {
-                    // Replace this command with any Linux command you want to run
-                    sh 'echo "Hello, melwin!"'
+                    // Specify the Git repository URL and the branch to checkout
+                    git branch: 'main', url: 'https://github.com/ally0/github'
                 }
             }
         }
