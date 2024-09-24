@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Add your build commands here
                 echo 'Building the project...'
-                // Example: sh 'make build'
+                // Example: sh 'make me'
             }
         }
 
@@ -21,7 +21,7 @@ pipeline {
             steps {
                 // Add your test commands here
                 echo 'Running tests...'
-                // Example: sh 'make test'
+                // Example: sh 'make me'
             }
         }
 
