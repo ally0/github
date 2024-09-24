@@ -32,7 +32,7 @@ pipeline {
                     if (changes) {
                         echo "Changes detected: ${changes}"
                     } else {
-                        echo "No changes detected."
+                        echo "No changes detcted."
                     }
                 }
             }
